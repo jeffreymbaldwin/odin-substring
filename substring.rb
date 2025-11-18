@@ -1,10 +1,15 @@
-dictionary = ["baby"]
+dictionary = ["baby", "babyboy"]
 
 def substrings(word, dictionary)
     empty_hash = {}
     normalize = word.downcase
-    p normalize
+    dictionary.each do |comparison|
+      if normalize.include?(comparison)
+        empty_hash[comparison] = 1
+      end
+    end
+    empty_hash
 end
 
 
-p substrings("Fire", dictionary) 
+p substrings("Baby", dictionary) 
