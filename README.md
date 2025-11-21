@@ -16,19 +16,50 @@ It focuses on:
 
 ## How to Run
 
-(To be filled in once the method works)
+1. Make sure you have **Ruby installed**  
+   You can check by running:
+   ```bash
+   ruby -v
+   ```
 
-~~~bash
-ruby substrings.rb
-~~~
+2. Clone this repository:  
+   
+   ```bash   
+   git clone https://github.com/jeffreymbaldwin/odin-substring.git
+   cd odin-substring
+   ```
 
+3. Run the script:  
+
+   ```bash
+   ruby substring.rb
+   ```
+
+4. (Optional) Edit the sample inputs inside substring.rb to test your own strings and dictionaries.  
+
+   
 ## Usage
 
-(To be added later with example input and output.)
+Inside `substring.rb`, you can modify the `dictionary` array and the `string` variable to test different inputs. After editing the values, run:
+
+```bash
+ruby substring.rb
+```
 
 ## Example Output
 
-(To be added after implementation.)
+Using the inputs:
+
+```ruby
+dictionary = ["below", "low"]
+string = "below"
+```
+
+The outputs will be:
+
+```
+{"below"=>1, "low"=>1}
+```
 
 ## Reflection 
 
