@@ -63,9 +63,9 @@ The outputs will be:
 
 ## Reflection 
 
-(To be written after finishing the project.)
+The main thing that made this project work was the combination of `scan` and `count`. With this approach, I was able to isolate matches from the `dictionary` and count them correctly. It took me a while to figure this out, though. In my first attempt I tried using `include?`, but that only detects a match once, so it didn’t work for words that appear multiple times.
 
-## 日本語 (Added later)
+I also struggle with working with empty hashes and adding values to them, so this project was good practice. Creating an empty hash was easy enough, but the `empty_hash[comparison] = count` part took me a bit to understand. When I create something new (a hash, an array, anything), my instinct is to put the “new thing” on the right side of the `=`, but with hashes the *key* goes on the left. This project helped reinforce that.
 
-ここに日本語を説明を書きます。(後で追加)
+Another thing I’ve struggled with in the past is knowing where to place the final `return` when there are multiple `end` statements. This time, I was able to follow the logic and quickly put it in the correct place, which felt like real progress.
 
